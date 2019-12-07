@@ -5,6 +5,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  var test;
   static var userQuestion = '';
   var answer; //used to compute
   var displayAnswer = ''; //display final answer
